@@ -1,4 +1,20 @@
-{
+
+  {
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@pharmacie.com",
+      "password": "123456",
+      "role": "admin",
+      "nom": "Admin"
+    },
+    {
+      "id": 2,
+      "email": "user@pharmacie.com",
+      "password": "123456",
+      "role": "pharmacien",
+      "nom": "Pharmacien"
+    }],
   "patients": [
     {
       "id": 1,
