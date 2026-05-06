@@ -1,0 +1,59 @@
+<div style="padding:20px; max-width:600px; margin:auto;">
+
+  <h2><mat-icon>point_of_sale</mat-icon> Nouvelle Vente</h2>
+
+  <mat-card>
+    <mat-card-content>
+      <form [formGroup]="venteForm" (ngSubmit)="onSubmit()">
+
+        <mat-form-field appearance="outline" style="width:100%;">
+          <mat-label>Médicament</mat-label>
+          <mat-select formControlName="medicamentId">
+            <mat-option *ngFor="let m of medicaments" [value]="m.id">
+              {{ m.nom }} — Stock: {{ m.stock }}
+            </mat-option>
+          </mat-select>
+          <mat-error>Médicament obligatoire</mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" style="width:100%;">
+          <mat-label>Patient</mat-label>
+          <mat-select formControlName="patientId">
+            <mat-option *ngFor="let p of patients" [value]="p.id">
+              {{ p.nom }} {{ p.prenom }}
+            </mat-option>
+            <mat-option [value]="null" (click)="ajouterPatient()">
+              <span style="color:#3f51b5; display:flex; align-items:center; gap:4px;">
+                <mat-icon style="font-size:16px;">add_circle</mat-icon>
+                + Ajouter un nouveau patient
+              </span>
+            </mat-option>
+          </mat-select>
+          <mat-error>Patient obligatoire</mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" style="width:100%;">
+          <mat-label>Quantité</mat-label>
+          <input matInput type="number" formControlName="quantite" min="1"/>
+          <mat-error>Quantité obligatoire</mat-error>
+        </mat-form-field>
+
+        <div *ngIf="errorMessage" style="color:red; margin-bottom:10px; display:flex; align-items:center; gap:6px;">
+          <mat-icon>error</mat-icon> {{ errorMessage }}
+        </div>
+
+        <div *ngIf="successMessage" style="color:green; margin-bottom:10px; display:flex; align-items:center; gap:6px;">
+          <mat-icon>check_circle</mat-icon> {{ successMessage }}
+        </div>
+
+        <button mat-raised-button color="primary" 
+                type="submit" 
+                [disabled]="venteForm.invalid"
+                style="width:100%;">
+          <mat-icon>shopping_cart</mat-icon> Valider la vente
+        </button>
+
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

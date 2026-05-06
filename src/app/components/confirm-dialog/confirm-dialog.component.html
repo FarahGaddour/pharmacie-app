@@ -1,0 +1,19 @@
+<div style="padding: 24px; min-width: 300px;">
+  <h2 mat-dialog-title style="margin:0 0 16px; font-size:18px;">
+    <mat-icon style="color:#f44336; vertical-align:middle; margin-right:8px;">warning</mat-icon>
+    Confirmation
+  </h2>
+  <mat-dialog-content>
+    <p style="color: var(--color-text-secondary); margin:0;">
+      Voulez-vous vraiment supprimer cet élément ? Cette action est irréversible.
+    </p>
+  </mat-dialog-content>
+  <mat-dialog-actions style="display:flex; justify-content:flex-end; gap:8px; margin-top:20px;">
+    <button mat-stroked-button (click)="annuler()">
+      <mat-icon>cancel</mat-icon> Annuler
+    </button>
+    <button mat-raised-button color="warn" (click)="confirmer()">
+      <mat-icon>delete</mat-icon> Supprimer
+    </button>
+  </mat-dialog-actions>
+</div>

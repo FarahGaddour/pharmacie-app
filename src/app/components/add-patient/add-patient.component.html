@@ -1,0 +1,33 @@
+<h2 mat-dialog-title>
+  {{ data ? 'Modifier' : 'Ajouter' }} un Patient
+</h2>
+
+<mat-dialog-content>
+  <form [formGroup]="form">
+
+    <mat-form-field appearance="fill" style="width:100%;">
+      <mat-label>Nom</mat-label>
+      <input matInput formControlName="nom"/>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" style="width:100%;">
+      <mat-label>Prénom</mat-label>
+      <input matInput formControlName="prenom"/>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" style="width:100%;">
+      <mat-label>Téléphone</mat-label>
+      <input matInput formControlName="telephone"/>
+    </mat-form-field>
+
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button (click)="annuler()">Annuler</button>
+  <button mat-raised-button color="primary"
+          (click)="onSubmit()"
+          [disabled]="form.invalid">
+    Enregistrer
+  </button>
+</mat-dialog-actions>

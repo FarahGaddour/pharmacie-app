@@ -1,0 +1,517 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "nom": "Ben Ali",
+      "prenom": "Mohamed",
+      "telephone": "22334455"
+    },
+    {
+      "id": 2,
+      "nom": "Trabelsi",
+      "prenom": "Sara",
+      "telephone": "55667788"
+    },
+    {
+      "id": 3,
+      "nom": "Chabbi",
+      "prenom": "Karim",
+      "telephone": "99887766"
+    },
+    {
+      "id": 4,
+      "nom": "Bennour",
+      "prenom": "Hedi",
+      "telephone": "98547654"
+    },
+    {
+      "id": 5,
+      "nom": "Mansouri",
+      "prenom": "Leila",
+      "telephone": "71234567"
+    },
+    {
+      "id": 6,
+      "nom": "Gharbi",
+      "prenom": "Youssef",
+      "telephone": "72345678"
+    },
+    {
+      "id": 7,
+      "nom": "Belhaj",
+      "prenom": "Fatma",
+      "telephone": "73456789"
+    },
+    {
+      "id": 8,
+      "nom": "Ayari",
+      "prenom": "Sami",
+      "telephone": "74567890"
+    },
+    {
+      "id": 9,
+      "nom": "Hamdi",
+      "prenom": "Nour",
+      "telephone": "75678901"
+    },
+    {
+      "id": 10,
+      "nom": "Dridi",
+      "prenom": "Amine",
+      "telephone": "76789012"
+    },
+    {
+      "id": 11,
+      "nom": "Jebali",
+      "prenom": "Rim",
+      "telephone": "77890123"
+    },
+    {
+      "id": 12,
+      "nom": "Khelifi",
+      "prenom": "Omar",
+      "telephone": "78901234"
+    },
+    {
+      "id": 13,
+      "nom": "Saidi",
+      "prenom": "Amira",
+      "telephone": "79012345"
+    },
+    {
+      "id": 14,
+      "nom": "Ferchichi",
+      "prenom": "Bilel",
+      "telephone": "71123456"
+    },
+    {
+      "id": 15,
+      "nom": "Bouazizi",
+      "prenom": "Wafa",
+      "telephone": "72234567"
+    },
+    {
+      "id": 16,
+      "nom": "Mzoughi",
+      "prenom": "Tarek",
+      "telephone": "73345678"
+    },
+    {
+      "id": 17,
+      "nom": "Hamdouni",
+      "prenom": "Ines",
+      "telephone": "74456789"
+    },
+    {
+      "id": 18,
+      "nom": "Slama",
+      "prenom": "Riadh",
+      "telephone": "75567890"
+    },
+    {
+      "id": 19,
+      "nom": "Turki",
+      "prenom": "Mariem",
+      "telephone": "76678901"
+    },
+    {
+      "id": 20,
+      "nom": "Ferjani",
+      "prenom": "Khaled",
+      "telephone": "77789012"
+    },
+    {
+      "id": 21,
+      "nom": "Boughanmi",
+      "prenom": "Sarra",
+      "telephone": "78890123"
+    },
+    {
+      "id": 22,
+      "nom": "Riahi",
+      "prenom": "Malek",
+      "telephone": "79901234"
+    },
+    {
+      "id": 23,
+      "nom": "Oueslati",
+      "prenom": "Donia",
+      "telephone": "71112233"
+    },
+    {
+      "id": 24,
+      "nom": "Abidi",
+      "prenom": "Walid",
+      "telephone": "72223344"
+    },
+    {
+      "id": 25,
+      "nom": "Zouari",
+      "prenom": "Hela",
+      "telephone": "73334455"
+    },
+    {
+      "nom": "hakmouni",
+      "prenom": "ala",
+      "telephone": "52478887",
+      "id": 26
+    },
+    {
+      "nom": "test",
+      "prenom": "test",
+      "telephone": "test",
+      "id": 27
+    }
+  ],
+  "medicaments": [
+    {
+      "id": 1,
+      "nom": "Paracétamol",
+      "prix": 2.5,
+      "stock": 99,
+      "categorie": "Analgésique",
+      "fournisseurId": 1
+    },
+    {
+      "id": 2,
+      "nom": "Amoxicilline",
+      "prix": 8,
+      "stock": 49,
+      "categorie": "Antibiotique",
+      "fournisseurId": 2
+    },
+    {
+      "id": 3,
+      "nom": "Ibuprofène",
+      "prix": 3.5,
+      "stock": 74,
+      "categorie": "Anti-inflammatoire",
+      "fournisseurId": 1
+    },
+    {
+      "id": 4,
+      "nom": "Doliprane",
+      "prix": 5500,
+      "stock": 49,
+      "categorie": "Analgésique",
+      "fournisseurId": 1
+    },
+    {
+      "id": 5,
+      "nom": "Maxilase",
+      "prix": 7590,
+      "stock": 99,
+      "categorie": "Analgésique",
+      "fournisseurId": 2
+    },
+    {
+      "id": 6,
+      "nom": "Augmentin",
+      "prix": 25000,
+      "stock": 250,
+      "categorie": "Antibiotique",
+      "fournisseurId": 2
+    },
+    {
+      "id": 7,
+      "nom": "Vitamin B12",
+      "prix": 6000,
+      "stock": 150,
+      "categorie": "Autre",
+      "fournisseurId": 1
+    },
+    {
+      "id": 8,
+      "nom": "Smecta",
+      "prix": 10000,
+      "stock": 50,
+      "categorie": "Antibiotique",
+      "fournisseurId": 1
+    },
+    {
+      "id": 9,
+      "nom": "Aspégic",
+      "prix": 3200,
+      "stock": 80,
+      "categorie": "Analgésique",
+      "fournisseurId": 3
+    },
+    {
+      "id": 10,
+      "nom": "Voltarène",
+      "prix": 8500,
+      "stock": 60,
+      "categorie": "Anti-inflammatoire",
+      "fournisseurId": 4
+    },
+    {
+      "id": 11,
+      "nom": "Amoxil",
+      "prix": 9000,
+      "stock": 45,
+      "categorie": "Antibiotique",
+      "fournisseurId": 5
+    },
+    {
+      "id": 12,
+      "nom": "Efferalgan",
+      "prix": 4500,
+      "stock": 120,
+      "categorie": "Analgésique",
+      "fournisseurId": 1
+    },
+    {
+      "id": 13,
+      "nom": "Spasfon",
+      "prix": 7000,
+      "stock": 90,
+      "categorie": "Autre",
+      "fournisseurId": 2
+    },
+    {
+      "id": 14,
+      "nom": "Maalox",
+      "prix": 5000,
+      "stock": 70,
+      "categorie": "Autre",
+      "fournisseurId": 3
+    },
+    {
+      "id": 15,
+      "nom": "Gaviscon",
+      "prix": 12000,
+      "stock": 40,
+      "categorie": "Autre",
+      "fournisseurId": 4
+    },
+    {
+      "id": 16,
+      "nom": "Ciprofloxacine",
+      "prix": 15000,
+      "stock": 30,
+      "categorie": "Antibiotique",
+      "fournisseurId": 5
+    },
+    {
+      "id": 17,
+      "nom": "Metformine",
+      "prix": 6500,
+      "stock": 200,
+      "categorie": "Autre",
+      "fournisseurId": 1
+    },
+    {
+      "id": 18,
+      "nom": "Oméprazole",
+      "prix": 8000,
+      "stock": 110,
+      "categorie": "Autre",
+      "fournisseurId": 2
+    },
+    {
+      "id": 19,
+      "nom": "Levothyrox",
+      "prix": 11000,
+      "stock": 85,
+      "categorie": "Autre",
+      "fournisseurId": 3
+    },
+    {
+      "id": 20,
+      "nom": "Ventoline",
+      "prix": 18000,
+      "stock": 55,
+      "categorie": "Autre",
+      "fournisseurId": 4
+    },
+    {
+      "id": 21,
+      "nom": "Cortancyl",
+      "prix": 9500,
+      "stock": 65,
+      "categorie": "Anti-inflammatoire",
+      "fournisseurId": 5
+    },
+    {
+      "id": 22,
+      "nom": "Dolzam",
+      "prix": 7200,
+      "stock": 15,
+      "categorie": "Analgésique",
+      "fournisseurId": 1
+    },
+    {
+      "id": 23,
+      "nom": "Rhinadvil",
+      "prix": 8800,
+      "stock": 10,
+      "categorie": "Analgésique",
+      "fournisseurId": 2
+    },
+    {
+      "id": 24,
+      "nom": "Toplexil",
+      "prix": 13000,
+      "stock": 75,
+      "categorie": "Autre",
+      "fournisseurId": 3
+    },
+    {
+      "id": 25,
+      "nom": "Strepsils",
+      "prix": 4800,
+      "stock": 130,
+      "categorie": "Autre",
+      "fournisseurId": 4
+    }
+  ],
+  "fournisseurs": [
+    {
+      "id": 1,
+      "nom": "PharmaCorp",
+      "email": "contact@pharmacorp.com",
+      "telephone": "87455544",
+      "ville": "Tunis"
+    },
+    {
+      "id": 2,
+      "nom": "MediSupply",
+      "email": "info@medisupply.com",
+      "telephone": "0987654321",
+      "ville": "Sfax"
+    },
+    {
+      "id": 3,
+      "nom": "Simed",
+      "email": "simed@info.com",
+      "telephone": "74985221",
+      "ville": "Sfax"
+    },
+    {
+      "id": 4,
+      "nom": "PharmaPac",
+      "email": "pac@info.com",
+      "telephone": "78455211",
+      "ville": "Tunis"
+    },
+    {
+      "id": 5,
+      "nom": "PlanetPharma",
+      "email": "planet@pharma.com",
+      "telephone": "54778897",
+      "ville": "France"
+    },
+    {
+      "id": 6,
+      "nom": "BioMed Tunisie",
+      "email": "biomed@tunisie.com",
+      "telephone": "71234567",
+      "ville": "Tunis"
+    },
+    {
+      "id": 7,
+      "nom": "SantéPlus",
+      "email": "contact@santeplus.tn",
+      "telephone": "74123456",
+      "ville": "Sousse"
+    },
+    {
+      "id": 8,
+      "nom": "MediTech",
+      "email": "info@meditech.tn",
+      "telephone": "73456789",
+      "ville": "Monastir"
+    },
+    {
+      "id": 9,
+      "nom": "PharmaNet",
+      "email": "pharmanet@net.tn",
+      "telephone": "72345678",
+      "ville": "Bizerte"
+    },
+    {
+      "id": 10,
+      "nom": "GlobalMed",
+      "email": "global@med.com",
+      "telephone": "71987654",
+      "ville": "Tunis"
+    },
+    {
+      "id": 11,
+      "nom": "MediCare",
+      "email": "care@medicare.tn",
+      "telephone": "75234567",
+      "ville": "Nabeul"
+    },
+    {
+      "id": 12,
+      "nom": "BioPharm",
+      "email": "bio@pharm.tn",
+      "telephone": "76345678",
+      "ville": "Kairouan"
+    },
+    {
+      "id": 13,
+      "nom": "SanoMed",
+      "email": "sano@med.tn",
+      "telephone": "77456789",
+      "ville": "Gafsa"
+    },
+    {
+      "id": 14,
+      "nom": "HealthCorp",
+      "email": "health@corp.tn",
+      "telephone": "78567890",
+      "ville": "Sfax"
+    },
+    {
+      "id": 15,
+      "nom": "MediPharma",
+      "email": "medi@pharma.tn",
+      "telephone": "79678901",
+      "ville": "Tunis"
+    }
+  ],
+  "ventes": [
+    {
+      "medicamentId": 4,
+      "patientId": 2,
+      "quantite": 1,
+      "date": "2026-05-02T15:48:02.400Z",
+      "pharmacienEmail": "user@pharmacie.com",
+      "id": 1
+    },
+    {
+      "medicamentId": 3,
+      "patientId": 2,
+      "quantite": 1,
+      "date": "2026-05-05T12:24:27.055Z",
+      "pharmacienEmail": "user@pharmacie.com",
+      "id": 2
+    },
+    {
+      "medicamentId": 7,
+      "patientId": 3,
+      "quantite": 2,
+      "date": "2026-05-05T12:25:19.954Z",
+      "pharmacienEmail": "user@pharmacie.com",
+      "id": 3
+    },
+    {
+      "medicamentId": 2,
+      "patientId": 27,
+      "quantite": 1,
+      "date": "2026-05-05T17:39:36.951Z",
+      "pharmacienEmail": "user@pharmacie.com",
+      "id": 4
+    },
+    {
+      "medicamentId": 5,
+      "patientId": 2,
+      "quantite": 1,
+      "date": "2026-05-05T21:48:18.384Z",
+      "pharmacienEmail": "user@pharmacie.com",
+      "id": 5
+    }
+  ]
+}
